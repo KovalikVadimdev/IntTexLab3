@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LAB1</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <h1 style="text-align: center">Choose audience</h1>
+    <form>
+      <label>
+        <select
+          id="select_auditorium"
+          name="name_auditorium"
+          style="display: block; margin: 15px auto; padding: 5px 15px"
+        >
+          <option value="104i">104i</option>
+          <option value="106i">106i</option>
+          <option value="229">229</option>
+          <option value="10012">10012</option>
+        </select>
+      </label>
+      <input
+        id="button_auditorium"
+        type="button"
+        name="submit_btn"
+        style="display: block; margin: 15px auto"
+        value="Get data"
+      />
+    </form>
+
+    <div id="auditorium"></div>
+
+    <h1 style="text-align: center">Choose student group</h1>
+    <form>
+      <label>
+        <select
+          id="select_group"
+          name="name_group"
+          style="display: block; margin: 15px auto; padding: 5px 15px"
+        >
+          <option value="KI-12-1">KI-12-1</option>
+          <option value="KI-12-2">KI-12-2</option>
+          <option value="KI-12-3">KI-12-3</option>
+          <option value="KI-12-4">KI-12-4</option>
+          <option value="KI-12-5">KI-12-5</option>
+        </select>
+      </label>
+      <input
+        id="button_group"
+        type="button"
+        name="submit_btn"
+        style="display: block; margin: 15px auto"
+        value="Get data"
+      />
+    </form>
+
+    <div id="group"></div>
+
+    <h1 style="text-align: center">Choose name teacher</h1>
+    <form>
+      <label>
+        <select
+          id="select_teacher_name"
+          name="teacher_name"
+          style="display: block; margin: 15px auto; padding: 5px 15px"
+        >
+          <option value="Kovalenko A.A.">Kovalenko A.A.</option>
+          <option value="Yankovskiy O.A.">Yankovskiy O.A.</option>
+          <option value="Ivaschenko G.S.">Ivaschenko G.S.</option>
+        </select>
+      </label>
+      <input
+        id="button_teacher_name"
+        type="button"
+        name="submit_btn"
+        style="display: block; margin: 15px auto"
+        value="Get data"
+      />
+    </form>
+
+    <div id="teacher_name"></div>
+  </body>
+</html>
